@@ -4,6 +4,7 @@ def fizzbuzz(int)
     "FizzBuzz"
   elsif int % 5 == 0
     "Buzz"
+    binding.pry
   elsif int % 3 == 0
     "Fizz"
   end
